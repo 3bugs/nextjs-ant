@@ -2,7 +2,7 @@
   padding: 0 2rem;
 }
 
-.main {
+.main-old {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -126,4 +126,24 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.main {
+  height: 100vh;
+}
+
+.content {
+
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.siteLayoutBackground {
+  background: #fff;
 }
